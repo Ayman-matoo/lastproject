@@ -1,0 +1,108 @@
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav,ul,li{
+
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+  
+
+    
+}
+
+
+nav,ul,li,a{
+    text-decoration: none;
+
+}
+.head-lift{
+    float: left;
+
+}
+
+nav a:hover{
+    color:blue;
+}
+img{
+    align-items: center;
+}
+.icon-media{
+color:blue;
+}
+.fa-youtube{
+    color:red;
+}
+main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: green;
+}
+
+
+@media screen and (max-width: 600px) {
+
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav,ul,li{
+
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+
+    
+}
+
+
+nav,ul,li,a{
+    text-decoration: none;
+
+}
+.head-lift{
+    float: left;
+
+}
+
+nav a:hover{
+    color:blue;
+}
+img{
+    align-items: center;
+}
+.icon-media{
+color:red;
+}
+.fa-youtube{
+    color:(0, 255, 98)
+}
+main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
